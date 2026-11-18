@@ -9,3 +9,9 @@ node --test quote.test.ts
 ```
 
 All prices and calendar entries are fictional fixtures. In a live booking system, the server should supply calendar availability, recalculate the quote, and check availability again when reserving the slot.
+
+## Project context
+
+![Occidental Studio public website](docs/occidental.png)
+
+The production venue site inspired this extracted booking example. This repository contains the standalone calculation and tests.
